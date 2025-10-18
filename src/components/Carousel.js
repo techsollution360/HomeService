@@ -8,16 +8,21 @@ import styles from "../styles/Carousel.module.css"; // Import custom styles
 
 const Carousel = () => {
   const slides = [
-    { id: 1, image: "/images/img1.jpg", title: "Exclusive Deals on Premium Wall Panels", text: "Elevate your space with our high-quality wall panels — crafted for durability, designed for elegance." },
-    { id: 2, image: "/images/img2.jpg", title: "Fast Delivery", text: "Get fresh Gangajal delivered to your doorstep" },
-    { id: 3, image: "/images/img3.jpg", title: "100% Authentic", text: "Certified and pure holy water from the source" }
+    { id: 1, image: "/images/home-cleaning.png", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." },
+    { id: 2, image: "/images/home-cleaning1.jpg", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." },
+    { id: 3, image: "/images/home-cleaning2.jpg", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." },
+    { id: 4, image: "/images/home-cleaning3.jpg", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." },
+    { id: 5, image: "/images/home-cleaning4.jpg", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." },
+    { id: 5, image: "/images/home-cleaning5.jpg", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." }
+    // { id: 2, image: "/images/img2.jpg", title: "Fast Delivery", text: "Get fresh Gangajal delivered to your doorstep" },
+    // { id: 3, image: "/images/img3.jpg", title: "100% Authentic", text: "Certified and pure holy water from the source" }
   ];
 
   return (
     <div className={styles.carouselContainer}>
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
-        spaceBetween={50}
+        spaceBetween={5}
         slidesPerView={1}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         pagination={{ clickable: true }}

@@ -33,8 +33,8 @@ const AuthPopup = ({ onClose }) => {
         <div className={styles.authContainer}>
             {/* Left Side Branding */}
             <div className={styles.authLeft}>
-            <h2>Welcome to Bhagirathi Gangajal</h2>
-            <p>Get fresh and pure Gangajal delivered to your doorstep.</p>
+            <h2>Welcome to Home Services</h2>
+            <p>Dehradun's trusted platform for reliable, professional, and affordable home service solutions.</p>
             </div>
 
             {/* Right Side Form */}
