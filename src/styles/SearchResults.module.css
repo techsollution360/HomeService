@@ -1,0 +1,28 @@
+/* SearchResults.module.css */
+
+.searchResultsContainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.heading {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.noResults {
+    font-size: 1.2rem;
+    color: #d9534f;
+    margin-top: 20px;
+}

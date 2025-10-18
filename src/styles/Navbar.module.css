@@ -1,0 +1,156 @@
+/* Navbar Container */
+.navbar {
+  background: #2c3e50;
+  padding: 15px 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Inner Container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  /* color: #f1c40f; */
+  text-decoration: none;
+}
+
+.logoImage {
+  height: 38px; /* Adjust as needed */
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+}
+
+/* Search Bar */
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 30px;
+  padding: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchInput {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 30px;
+  width: 250px;
+  outline: none;
+}
+
+.searchButton {
+  background: #f1c40f;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  transition: background 0.3s;
+}
+
+.searchButton:hover {
+  background: #e67e22;
+}
+
+/* Navigation Links */
+.navLinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navLinks li {
+  font-size: 16px;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navLinks a:hover {
+  color: #f1c40f;
+}
+
+/* Icons */
+.iconContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 20px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #f1c40f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .searchInput {
+    width: 180px;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+/* Login / Signup Button */
+.navLoginBtn {
+  background: transparent;
+  color: #0073e6;
+  border: 2px solid #0073e6;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  margin-left: 50px;
+}
+
+/* Hover Effect */
+.navLoginBtn:hover {
+  background: #0073e6;
+  color: white;
+}
+
+/* Active / Click Effect */
+.navLoginBtn:active {
+  transform: scale(0.95);
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .navLoginBtn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
