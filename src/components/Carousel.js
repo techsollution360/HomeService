@@ -8,7 +8,7 @@ import styles from "../styles/Carousel.module.css"; // Import custom styles
 
 const Carousel = () => {
   const slides = [
-    { id: 1, image: "/images/img1.jpg", title: "Best Deals on Gangajal", text: "Pure and sacred water from Bhagirathi" },
+    { id: 1, image: "/images/img1.jpg", title: "Exclusive Deals on Premium Wall Panels", text: "Elevate your space with our high-quality wall panels — crafted for durability, designed for elegance." },
     { id: 2, image: "/images/img2.jpg", title: "Fast Delivery", text: "Get fresh Gangajal delivered to your doorstep" },
     { id: 3, image: "/images/img3.jpg", title: "100% Authentic", text: "Certified and pure holy water from the source" }
   ];
