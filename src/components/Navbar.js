@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="container-fluid">
           {/* Logo */}
           <Link to="/" className={`navbar-brand ${styles.logo}`}>
-            <img src="/logos/BHG.png" alt="Bhagirathi Gangajal" className={styles.logoImage} />
+            <img src="/logos/HSA.png" alt="Home Services" className={styles.logoImage} />
           </Link>
           
           {/* Search Bar in Center */}

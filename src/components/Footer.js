@@ -9,8 +9,8 @@ const Footer = () => {
       <div className={styles.container}>
         {/* Logo and About */}
         <div className={styles.footerSection}>
-          <h2 className={styles.logo}>Bhagirathi Gangajal</h2>
-          <p>Your trusted source for pure and sacred Gangajal.</p>
+          <h2 className={styles.logo}>Home Services</h2>
+          <p>Reliable, certified professionals at your doorstep — your trusted partner for top-quality home services.</p>
         </div>
 
         {/* Quick Links */}
@@ -28,9 +28,9 @@ const Footer = () => {
         {/* Contact Info */}
         <div className={styles.footerSection}>
           <h3>Contact Us</h3>
-          <p>Email: support@bhagirathigangajal.com</p>
+          <p>Email: support@homeservices.com</p>
           <p>Phone: +91 12345 67890</p>
-          <p>Address: Haridwar, India</p>
+          <p>Address: Dehradun, India</p>
         </div>
 
         {/* Newsletter Subscription */}
@@ -53,7 +53,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className={styles.footerBottom}>
-        <p>&copy; 2025 Bhagirathi Gangajal. All Rights Reserved.</p>
+        <p>&copy; 2025 Home Services. All Rights Reserved.</p>
       </div>
     </footer>
   );
