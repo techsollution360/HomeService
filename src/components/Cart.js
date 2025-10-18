@@ -8,11 +8,11 @@ const Cart = () => {
 
   return (
     <div className={styles.cartContainer}>
-      <h2>Your Shopping Cart</h2>
+      <h2>Your Service Cart</h2>
 
       {cart.length === 0 ? (
         <div className={styles.emptyCart}>
-          <p>Your cart is empty!</p>
+          <p>Your service cart is empty!</p>
           <Link to="/" className={styles.shopNowBtn}>Shop Now</Link>
         </div>
       ) : (
@@ -36,7 +36,7 @@ const Cart = () => {
           </div>
 
           <div className={styles.cartSummary}>
-            <h3>Cart Summary</h3>
+            <h3>Service Cart Summary</h3>
             <p>Subtotal: ₹{getTotalPrice()}</p>
             <button className={styles.checkoutBtn}>Proceed to Checkout</button>
           </div>

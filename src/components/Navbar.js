@@ -33,7 +33,7 @@ const Navbar = () => {
               id='SearchBox'
               className={` ${styles.searchInput}`}
               type="search"
-              placeholder="Search products..."
+              placeholder="Search services..."
               aria-label="Search"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -74,7 +74,7 @@ const Navbar = () => {
                 <Link to="/contact" className={`nav-link ${styles.navLink}`}>Contact</Link>
               </li>
               <li className="nav-item">
-                <Link to="/cart" className={`nav-link ${styles.navLink}`}><FaShoppingCart /> Cart</Link>
+                <Link to="/cart" className={`nav-link ${styles.navLink}`}><FaShoppingCart /> Services Cart</Link>
               </li>
             </ul>
           </div>

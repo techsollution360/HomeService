@@ -13,9 +13,9 @@ const Cart = () => {
 
   return (
     <div className={styles.cartContainer}>
-      <h2>Your Shopping Cart</h2>
+      <h2>Your Service Cart</h2>
       {cartItems.length === 0 ? (
-        <p>Your cart is empty.</p>
+        <p>Your service cart is empty.</p>
       ) : (
         <div>
           <ul>

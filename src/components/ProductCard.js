@@ -13,7 +13,7 @@ const ProductCard = ({ product }) => {
         {/* <p className={styles.productDescription}>{product.description}</p> */}
         <p className={styles.productPrice}>{product.price}</p>
         <button className={styles.addToCartBtn} onClick={() => addToCart(product)}>
-        Add to Cart
+        Add Service
         </button>
         {/* <button className={styles.addToCartBtn}>Add to Cart</button> */}
       </div>
