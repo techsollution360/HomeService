@@ -8,7 +8,8 @@ import styles from "../styles/Carousel.module.css"; // Import custom styles
 
 const Carousel = () => {
   const slides = [
-    { id: 1, image: "/images/home-cleaning.png", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." },
+    //{ id: 1, image: "/images/home-cleaning.png", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." },
+    { id: 1, image: "/images/img1.jpg", title: "Exclusive Deals on Premium Wall Panels", text: "Elevate your space with our high-quality wall panels — crafted for durability, designed for elegance." },
     { id: 2, image: "/images/home-cleaning1.jpg", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." },
     { id: 3, image: "/images/home-cleaning2.jpg", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." },
     { id: 4, image: "/images/home-cleaning3.jpg", title: "Professional Home Cleaning", text: "Get your home sparkling clean with trusted local experts." },
